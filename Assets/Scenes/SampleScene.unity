@@ -281,7 +281,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 63453675}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 289898196}
+        m_TargetAssemblyTypeName: movement_button, Assembly-CSharp
+        m_MethodName: changeActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &63453675
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,6 +1015,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6c841e7a79524354adf596d39ce4ec7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hammerBtn: {fileID: 1381002475}
+  flyBtn: {fileID: 63453673}
+  hBtn: {fileID: 1381002476}
+  fBtn: {fileID: 63453674}
 --- !u!1 &452644615
 GameObject:
   m_ObjectHideFlags: 0
@@ -2700,7 +2716,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -2721,7 +2737,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1381002477}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 289898196}
+        m_TargetAssemblyTypeName: movement_button, Assembly-CSharp
+        m_MethodName: changeActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
 --- !u!114 &1381002477
 MonoBehaviour:
   m_ObjectHideFlags: 0
