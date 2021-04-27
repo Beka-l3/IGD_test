@@ -1,0 +1,81 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/beka/Unity/IDG_test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52786
+Successfully changed project path to: /Users/beka/Unity/IDG_test
+/Users/beka/Unity/IDG_test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 27.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.5f1 (8095aa901b9b)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/beka/Unity/IDG_test/Assets
+GfxDevice: creating device client; threaded=0
+2021-04-26 23:09:05.827 Unity[2666:172540] Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-04-26 23:09:05.827 Unity[2666:172540] Metal devices available: 1
+2021-04-26 23:09:05.827 Unity[2666:172540] 0: Intel(R) Iris(TM) Plus Graphics 640 (low power)
+2021-04-26 23:09:05.842 Unity[2666:172540] Using device Intel(R) Iris(TM) Plus Graphics 640 (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics 640
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56666
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000540 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 25.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.971 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000419 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.5f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 0.25 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1165 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 122.9 MB.
+System memory in use after: 123.0 MB.
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 1622.
+Total: 2.885728 ms (FindLiveObjects: 0.407524 ms CreateObjectMapping: 0.096626 ms MarkObjects: 2.284328 ms  DeleteObjects: 0.094387 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/sprites/btn_hammer.png
+  artifactKey: Guid(0ee86f915e84743828613008bc6dfb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/btn_hammer.png using Guid(0ee86f915e84743828613008bc6dfb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f253dc4ac177404727c5bf52eecbee3') in 0.604822 seconds
+  Import took 0.610872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.959576 seconds.
+  path: Assets/sprites/btn_hammer.png
+  artifactKey: Guid(0ee86f915e84743828613008bc6dfb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/btn_hammer.png using Guid(0ee86f915e84743828613008bc6dfb38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e27531768f56549a6687cf771a05ad68') in 0.063483 seconds
+  Import took 0.073383 seconds .
+
